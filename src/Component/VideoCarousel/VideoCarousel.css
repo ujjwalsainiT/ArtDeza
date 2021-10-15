@@ -1,0 +1,27 @@
+.owl-carousel {
+  display: flex;
+}
+
+.owl-video {
+  width: 100%;
+  height: auto;
+}
+.iframe_width_video {
+  width: 95%;
+  height: 315px;
+}
+.youtube_icon_formatting {
+  font-size: 35px;
+  color: red;
+}
+.Video_tutorial_heading{
+  font-size: 30px;
+  color: #000;
+  font-weight: 700;
+}
+@media only screen and (min-width: 300px) and (max-width: 750px) {
+  .iframe_width_video {
+    width: 100%;
+    height: 315px;
+  }
+}

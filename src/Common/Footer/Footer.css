@@ -1,0 +1,18 @@
+.footer_back_color {
+  background-color: #000;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.copyright_formating {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.designed_by {
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}

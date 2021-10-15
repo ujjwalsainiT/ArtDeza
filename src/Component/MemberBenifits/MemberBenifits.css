@@ -1,0 +1,21 @@
+
+.premium_outside_border{
+    border:3px solid #6397fe !important;
+    background-color: #6397fe !important;
+}
+.card_premium_fonts{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+.cardsdata_premium{
+    background-color: white;
+    color: black ;
+}
+.premium_button{
+    color: red !important;
+    text-transform: capitalize !important;
+    text-decoration: none !important;
+    outline: none !important;
+
+}

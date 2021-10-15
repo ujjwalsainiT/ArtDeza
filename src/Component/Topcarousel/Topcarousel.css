@@ -1,0 +1,58 @@
+.crasoul_image {
+  width: 100% !important;
+  height: 650px !important;
+}
+
+.crasoul_button {
+  background-color: red !important;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 25px;
+  width: 15%;
+  text-align: center;
+  text-transform: capitalize !important;
+  cursor: pointer;
+  border: 1px solid transparent;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.learn_photo {
+  font-size: 60px;
+  font-weight: 600;
+}
+.caption {
+  font-size: 35px;
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 750px) {
+  .crasoul_image {
+    width: 100% !important;
+    height: 400px !important;
+  }
+
+  .crasoul_button {
+    background-color: red !important;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px 25px;
+    width: 40%;
+    text-align: center;
+    text-transform: capitalize !important;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-decoration: none !important;
+    outline: none !important;
+  }
+  .learn_photo {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .caption {
+    font-size: 15px;
+  }
+}
