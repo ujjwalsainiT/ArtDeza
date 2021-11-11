@@ -1,18 +1,54 @@
-.footer_back_color {
-  background-color: #000;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+.footer_main {
+  border-top: 4px solid red;
 }
-.copyright_formating {
+.footer_back_color {
+  background-color: #383838;
+}
+.footer_color_text {
   color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
+}
+.help {
+  color: #fff;
+  margin-left: 40px;
+  padding-top: 30px;
+}
+.email_btn {
+  background-color: red;
+  color: #fff;
+  height: 36px;
+  width: 41px;
+  border: none;
+}
+.footer_top {
+  background-color: #323232;
+  color: #fff;
+}
+.input_mail {
+  width: 80%;
+  height: 35px;
+  border: none;
+  background-color: #484848;
 }
 
-.designed_by {
-  color: red;
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
+.icons_style {
+  border: 2px solid #fff;
+  padding: 7px 13px;
+  border-radius: 20px;
+}
+.icons_styles {
+  border: 2px solid #fff;
+  padding: 7px 11px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.footer_bottom {
+  background-color: #252525;
+  color: #fff;
+}
+.Footer_heading_Links.mt-1 {
+  color: #fff;
+}
+.card_form {
+  background-color: #3b3b3b;
+  box-shadow: 2px #3b3b3b;
 }
