@@ -68,6 +68,10 @@ const Login = (props) => {
                                 <Button
                                     variant="contained"
                                     className="login_register_btn"
+                                    onClick={() => {
+                                        window.location.href = "/home"
+                                        localStorage.setItem("isAuth", true)
+                                    }}
 
                                 >
                                     Log in
