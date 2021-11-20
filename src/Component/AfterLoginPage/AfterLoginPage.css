@@ -35,19 +35,40 @@
 }
 
 .update_profile_btn {
-    color: #fff !important;
-    background-color: #FF0000 !important;
-    display: inline-block;
-    font-size: 16px;
-    padding: 8px 25px;
-    text-align: center;
-    text-transform: capitalize !important;
-    cursor: pointer;
-    border: 1px solid transparent;
-    outline: none !important;
-    text-decoration: none !important;
-  }
-  
+  color: #fff !important;
+  background-color: #ff0000 !important;
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 25px;
+  text-align: center;
+  text-transform: capitalize !important;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+.My_course_title {
+  font-size: 15px;
+  font-weight: 600;
+}
+.author_name {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+
+.start_click {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ff0000;
+}
+
+.table_header {
+  color: black !important;
+  font-weight: bold !important;
+  background-color: white !important;
+}
 @media only screen and (min-width: 300px) and (max-width: 650px) {
   .data_Padding_after_login {
     padding-top: 20%;

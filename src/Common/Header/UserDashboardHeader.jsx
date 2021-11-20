@@ -36,13 +36,14 @@ const UserDashboardHeader = (props) => {
                     <div className="header_grow" />
                     <div className="header_links">
                         <span className="header_link_color" onClick={() => props.history.push("/home")}>Home</span>
-                        <span className="header_link_color">Account</span>
-                        <span className="header_link_color">My Courses</span>
-
+                        <span className="header_link_color" onClick={() => props.history.push("/my-profile")}>Account</span>
+                        <span className="header_link_color" onClick={() => props.history.push("/my-courses")}>My Courses</span>
+                        <span className="header_link_color" onClick={() => props.history.push("/learn")}>Store</span>
+                        <span className="header_link_color" onClick={() => props.history.push("/purchase-history")}>Purchase History</span>
                         <span className="header_link_color" onClick={() => {
                             localStorage.clear();
                             window.location.href = "/home"
-                        }}>LogOut</span>
+                        }}>LogOut <i class="fa fa-sign-out ml-1"></i></span>
                     </div>
                     <div className="mobile_Burger_Menu">
                         <span
@@ -63,21 +64,26 @@ const UserDashboardHeader = (props) => {
                                     }}
                                 ></i>
                             </div>
-                            <span className="logout_Pointer_cursor">
+                            <span className="logout_Pointer_cursor" onClick={() => props.history.push("/home")}>
                                 Home
                             </span>
-                            <span className="logout_Pointer_cursor">
+                            <span className="logout_Pointer_cursor" onClick={() => props.history.push("/my-profile")}>
                                 Account
                             </span>
-                            <span className="logout_Pointer_cursor">
+                            <span className="logout_Pointer_cursor" onClick={() => props.history.push("/my-courses")}>
                                 My Courses
                             </span>
-
+                            <span className="logout_Pointer_cursor" onClick={() => props.history.push("/learn")}>
+                                Store
+                            </span>
+                            <span className="logout_Pointer_cursor" onClick={() => props.history.push("/purchase-history")}>
+                                Purchase History
+                            </span>
                             <span className="logout_Pointer_cursor" onClick={() => {
                                 localStorage.clear();
                                 window.location.href = "/home"
                             }}>
-                                LogOut
+                                LogOut <i class="fa fa-sign-out ml-1"></i>
                             </span>
                         </div>
                     </div>

@@ -9,6 +9,8 @@ import Learn from "./Component/Learn/Learn";
 import Register from "./Component/Register/Register";
 import Login from "./Component/Register/Login";
 import MyProfile from "./Component/AfterLoginPage/MyProfile";
+import CoursesEnroll from "./Component/AfterLoginPage/CoursesEnroll";
+import PurchaseHistory from "./Component/AfterLoginPage/PurchaseHistory";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route exact path="/login" component={Login} />
 
         <Route exact path="/my-profile" component={MyProfile} />
+        <Route exact path="/my-courses" component={CoursesEnroll} />
+        <Route exact path="/purchase-history" component={PurchaseHistory} />
       </Switch>
     </>
   );
