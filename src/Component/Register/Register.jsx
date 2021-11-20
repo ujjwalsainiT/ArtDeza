@@ -47,7 +47,7 @@ const Register = (props) => {
                                 />
 
                             </div>
-                            <div className="mt-2">
+                            <div className="mt-2 Register_phone_input">
                                 <PhoneInput
                                     country={'in'}
                                     countryCodeEditable={false}

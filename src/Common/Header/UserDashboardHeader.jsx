@@ -37,10 +37,12 @@ const UserDashboardHeader = (props) => {
                     <div className="header_links">
                         <span className="header_link_color" onClick={() => props.history.push("/home")}>Home</span>
                         <span className="header_link_color">Account</span>
-                        <span className="header_link_color">Members Benifits</span>
-                        <span className="header_link_color">Learn</span>
-                        <span className="header_link_color">Contact Us</span>
-                        <span className="header_link_color" >Login</span>
+                        <span className="header_link_color">My Courses</span>
+
+                        <span className="header_link_color" onClick={() => {
+                            localStorage.clear();
+                            window.location.href = "/home"
+                        }}>LogOut</span>
                     </div>
                     <div className="mobile_Burger_Menu">
                         <span
@@ -65,19 +67,17 @@ const UserDashboardHeader = (props) => {
                                 Home
                             </span>
                             <span className="logout_Pointer_cursor">
-                                About
+                                Account
                             </span>
                             <span className="logout_Pointer_cursor">
-                                Members Benifits
+                                My Courses
                             </span>
-                            <span className="logout_Pointer_cursor">
-                                Learn
-                            </span>
-                            <span className="logout_Pointer_cursor">
-                                Contact Us
-                            </span>
-                            <span className="logout_Pointer_cursor">
-                                Login
+
+                            <span className="logout_Pointer_cursor" onClick={() => {
+                                localStorage.clear();
+                                window.location.href = "/home"
+                            }}>
+                                LogOut
                             </span>
                         </div>
                     </div>

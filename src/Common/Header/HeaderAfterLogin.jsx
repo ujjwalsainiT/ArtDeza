@@ -48,7 +48,7 @@ const HeaderAfterLogin = (props) => {
                             <div class="dropdown show">
                                 <span className="user_image p-2 mr-2" id="dropdownMenuLink" data-toggle="dropdown" >PR</span>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <span class="dropdown-item" onClick={() => props.history.push("/my-courses")}>My Account</span>
+                                    <span class="dropdown-item" onClick={() => props.history.push("/my-profile")}>My Account</span>
 
                                     <span class="dropdown-item" onClick={() => {
                                         localStorage.clear();
@@ -100,10 +100,13 @@ const HeaderAfterLogin = (props) => {
                                 Contact Us
                             </span>
 
-                            <span className="logout_Pointer_cursor" >
-                                Edit Profile
+                            <span className="logout_Pointer_cursor" onClick={() => props.history.push("/my-profile")}>
+                                My Profile
                             </span>
-                            <span className="logout_Pointer_cursor">
+                            <span className="logout_Pointer_cursor" onClick={() => {
+                                localStorage.clear();
+                                window.location.href = "/home"
+                            }}>
                                 Log Out
                             </span>
                         </div>
