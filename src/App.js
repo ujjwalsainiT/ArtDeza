@@ -13,6 +13,7 @@ import CoursesEnroll from "./Component/AfterLoginPage/CoursesEnroll";
 import PurchaseHistory from "./Component/AfterLoginPage/PurchaseHistory";
 
 import AdminHomePage from "./Component/AdminPages/AdminHomePage.jsx";
+import AddVideo from "./Component/AdminPages/AddVideo";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
 
         {/*Addmin pages */}
         <Route exact path="/admin-home" component={AdminHomePage} />
+        <Route exact path="/add-video" component={AddVideo} />
       </Switch>
     </>
   );
