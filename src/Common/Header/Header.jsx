@@ -40,6 +40,7 @@ const Header = (props) => {
                         <span className="header_link_color" onClick={() => props.history.push("/members-benifits")}>Members Benifits</span>
                         <span className="header_link_color" onClick={() => props.history.push("/learn")}>Learn</span>
                         <span className="header_link_color" onClick={() => props.history.push("/contact-us")}>Contact Us</span>
+                        <span className="header_link_color" onClick={() => props.history.push("/login")}>Login</span>
                     </div>
                     <div className="mobile_Burger_Menu">
                         <span
@@ -75,7 +76,9 @@ const Header = (props) => {
                             <span className="logout_Pointer_cursor" onClick={() => props.history.push("/contact-us")}>
                                 Contact Us
                             </span>
-
+                            <span className="logout_Pointer_cursor" onClick={() => props.history.push("/login")}>
+                                Login
+                            </span>
                         </div>
                     </div>
                 </Toolbar>
