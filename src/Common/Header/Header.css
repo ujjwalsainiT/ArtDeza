@@ -92,13 +92,21 @@
 
 /*for dropdown*/
 
-.user_image {
+.MainHeader .user_image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: gray;
+  color: #fff;
+}
+.transparent .user_image{
   height: 40px;
   width: 40px;
   border-radius: 50%;
   background-color: black;
   color: #fff;
 }
+
 
 .dropdown_user_profile {
   height: 50px;
