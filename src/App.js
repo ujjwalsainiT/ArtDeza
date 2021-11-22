@@ -15,6 +15,7 @@ import PurchaseHistory from "./Component/AfterLoginPage/PurchaseHistory";
 import AdminHomePage from "./Component/AdminPages/AdminHomePage.jsx";
 import AddVideo from "./Component/AdminPages/AddVideo";
 import MyCourse from "./Component/AfterLoginPage/MyCourse";
+import CourseDetails from "./Component/PurchaseCourse/CourseDetails";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/my-profile" component={MyProfile} />
         <Route exact path="/my-courses" component={CoursesEnroll} />
         <Route exact path="/purchase-history" component={PurchaseHistory} />
+        <Route exact path="/course-detail" component={CourseDetails} />
 
         {/*Addmin pages */}
         <Route exact path="/admin-home" component={AdminHomePage} />
