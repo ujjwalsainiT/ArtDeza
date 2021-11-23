@@ -8,3 +8,18 @@
   font-size: 17px !important;
   color: grey;
 }
+.course_detail_price {
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  color: red !important;
+}
+.course_description_para{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.11rem;
+  line-height: 2;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-transform: none;
+  font-style: normal;
+  text-align: justify;
+}

@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import HOC from "../../Common/HOC";
 import Topcarousel from '../Topcarousel/Topcarousel';
 import PremiumTutorial from '../VideoCarousel/PremiumTutorial';
-import VideoCarousel from '../VideoCarousel/VideoCarousel';
 import { Grid, Card, Button } from '@material-ui/core';
 import "./Learn.css";
 
