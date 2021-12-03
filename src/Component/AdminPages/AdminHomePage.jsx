@@ -20,6 +20,12 @@ function AdminHomePage(props) {
                                     <div><strong> <i class="fa fa-plus mr-2" />Add Category</strong></div>
                                 </Card>
                             </Grid>
+
+                            <Grid item md={3} className="p-3">
+                                <Card className="p-5 text-center Card_shadow card_color" onClick={() => props.history.push("/payment-gateway")}>
+                                    <div><strong> <i class="fa fa-plus mr-2" />Payement key</strong></div>
+                                </Card>
+                            </Grid>
                         </Grid>
                     </div>
                 </Card>

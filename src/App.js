@@ -17,6 +17,7 @@ import AddVideo from "./Component/AdminPages/AddVideo";
 import MyCourse from "./Component/AfterLoginPage/MyCourse";
 import CourseDetails from "./Component/PurchaseCourse/CourseDetails";
 import AddCategory from "./Component/AdminPages/AddCategory";
+import PaymentGateway from "./Component/AdminPages/PaymentGateway";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route exact path="/add-video" component={AddVideo} />
         <Route exact path="/my-course" component={MyCourse} />
         <Route exact path="/add-category" component={AddCategory} />
+        <Route exact path="/payment-gateway" component={PaymentGateway} />
       </Switch>
     </>
   );
