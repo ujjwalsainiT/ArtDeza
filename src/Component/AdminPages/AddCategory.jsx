@@ -13,7 +13,7 @@ function AddCategory(props) {
     //local state
     const [addMangeopen, setaddMangeopen] = useState(false);
     const [category, setcategory] = useState("");
-    const [CategoryDataArr, setCategoryDataArr] = useState([]);
+    const [CategoryDataArr] = useState([]);
     const [EditDailogOpen, setEditDailogOpen] = useState(false);
     const [Editcategory, setEditcategory] = useState("");
 
@@ -29,7 +29,7 @@ function AddCategory(props) {
 
     return (
         <>
-            <div className="content_padding">
+            <div className="data_Padding_after_login">
 
                 <div className="mb-3 page_heading">Manage category</div>
                 <Card className="pt-3 pb-4 Card_shadow">
