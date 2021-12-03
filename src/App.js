@@ -16,6 +16,7 @@ import AdminHomePage from "./Component/AdminPages/AdminHomePage.jsx";
 import AddVideo from "./Component/AdminPages/AddVideo";
 import MyCourse from "./Component/AfterLoginPage/MyCourse";
 import CourseDetails from "./Component/PurchaseCourse/CourseDetails";
+import AddCategory from "./Component/AdminPages/AddCategory";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route exact path="/admin-home" component={AdminHomePage} />
         <Route exact path="/add-video" component={AddVideo} />
         <Route exact path="/my-course" component={MyCourse} />
+        <Route exact path="/add-category" component={AddCategory} />
       </Switch>
     </>
   );
